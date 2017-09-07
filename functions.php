@@ -72,7 +72,7 @@ wp_nav_menu( array(
 );
 */
 function logo(){
-    $logo = IMAGES.'/santuario.png';
+    $logo = IMAGES.'/santa-rita.png';
     echo '<a class="logo" href="';
     echo bloginfo('url');
     echo '"><img src="'.$logo.'" alt="Misioneros del sagrado Corazón de Jesús"></a>';
